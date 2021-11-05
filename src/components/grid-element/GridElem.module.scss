@@ -1,0 +1,16 @@
+.element {
+  height: 60px;
+  width: 180px;
+  border: 1px solid rgba(24, 144, 255, 0.5);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.winner {
+  border-color: green !important;
+}

@@ -1,0 +1,27 @@
+.wrapper {
+  position: absolute;
+  top: 60px;
+  right: 120px;
+  z-index: 10;
+}
+
+.teamFilled {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+
+.teamNum {
+  font-weight: 600;
+}
+
+.teamName {
+  height: 40px;
+  display: inline-block;
+  font-size: 18px;
+  color: #1890ff;
+}
+
+.empty {
+  color: rgba(0, 0, 0, 0.3)
+}

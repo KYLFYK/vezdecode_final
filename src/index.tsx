@@ -1,14 +1,14 @@
-import React, { StrictMode } from 'react'
+import React, { Fragment } from 'react'
 import { render } from 'react-dom'
 import { App } from './App'
 import { store } from './store/store'
 import { Provider } from 'react-redux'
 
 render(
-  <StrictMode>
+  <Fragment>
     <Provider store={store}>
       <App />
     </Provider>
-  </StrictMode>,
+  </Fragment>,
   document.getElementById('root')
 )
